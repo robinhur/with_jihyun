@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void over_100(int x) {
+void over_200(int a) {
 
-	if (x >= 100)
-		cout << "100 보다 큽니다.";
+	if (a >= 100)
+		cout << "200 보다 큽니다.";
 	else
-		cout << "100 보다 작습니다.";
+		cout << "200 보다 작습니다.";
 
 	return;
 
@@ -17,7 +17,7 @@ int main() {
 	int m;
 	cin >> m;
 
-	over_100(m);
+	over_200(m);
 
 	system("pause");
 	return 0;
