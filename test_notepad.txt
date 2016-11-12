@@ -20,6 +20,6 @@ int main() {
 	over_200(m);
 
 	system("pause");
-	return 0;
+	return 1;
 }
 }
